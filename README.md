@@ -2,6 +2,7 @@
 This repository contains my solutions to two HackerRank problem sets:
 1. Algorithms
 2. Data structures
+
 It serves as a collection of code solutions that I have implemented to tackle various challenges on the HackerRank platform.
 
 # Prerequisites
