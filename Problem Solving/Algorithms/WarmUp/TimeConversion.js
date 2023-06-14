@@ -21,3 +21,18 @@ if (isAM){
 }
 // return s;
 console.log(s);
+
+
+// OPTIMISED CODE 
+// let s = "12:01:00AM";
+// let hour = parseInt(s.substring(0, 2));
+// let isAM = s.includes("AM");
+
+// if (!isAM && hour < 12) {
+//   hour += 12;
+// } else if (isAM && hour === 12) {
+//   hour = 0;
+// }
+
+// s = hour.toString().padStart(2, "0") + s.substring(2, s.length - 2);
+// console.log(s);
