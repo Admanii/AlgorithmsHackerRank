@@ -1,14 +1,9 @@
 let arr = [1, 20, 3, 4, 5];
-let min = 0;
-let max = 0;
-let total = 0;
-
-
+let min = 0, max = 0, total = 0;
 for(let i = 0; i < arr.length; i++){
     total += arr[i]
 }
-
-max = total - Math.min(...arr)
+max = total - Math.min(...arr) //need to use "..." for array
 min = total - Math.max(...arr)
 console.log(min,max)
 
